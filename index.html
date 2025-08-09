@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus's Portfolio</title>
+
+<link rel="icon" href="./assets/Home/logo.png" type="image/x-icon">
+
+    <link href="style.css" rel="stylesheet">
+    <!-- Connect to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Josefin Slab Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Playfair Display Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p><span class="intro">Matheus</span> Teodoro</p>
+        <img src="./assets/Home/logo.png">
+        <nav>
+        <ul class="navtop">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+        <a class="cta" href="./assets/Matheus's Curriculum.pdf" target="_blank" download><button>Download CV</button></a>
+    </header>
+    <div class="scroll-indicator">
+          <a href="#home" class="active"></a>
+          <a href="#about"></a>
+          <a href="#skills"></a>
+          <a href="#contact"></a>
+        </div>
+    <section class="hero" id="home">
+      <img id="mobile-logo" class="mobile-logo" src="./assets/Home/logo.png">
+      <h1>I'm <span class="intro">MATHEUS</span></h1>
+      <p class="subtitle">A developer in progress</p>
+  
+      <!-- Rat -->
+      <img src="./assets/Home/Rat.png" class="rat" alt="rat" />
+  
+      <!-- Cat -->
+      <img src="./assets/Home/Cat.png" class="cat" alt="cat" />
+      
+      <!-- Arrow -->
+      <div class="scrolldown">
+        <img src="./assets/Home/arrow-down.png" alt="ScrollDown">
+      </div>
+    </section>
+
+    <!-- About Me-->
+    <section class="content-container" id="about"> 
+      <h2>About Me</h2>
+      <div class="line"></div>
+      <div class="about-content">
+        <div class="profile-picture">
+        <img src="./assets/About/Profile White.png" alt="profile">
+        <div id="profile-span"></div>
+      </div>
+        <div class="about1">
+          <h2>Matheus Teodoro</h2>
+          <h3>Software Developer</h3>
+          <p>A young man fueled by curiosity and determination, I dove into programming to turn ideas into code.</p>
+          <p>From theory to hands-on projects, I thrive on making concepts come alive. Every bug fixed, every feature added pushes my skills to the next level.</p>
+          <p>Now, I’m ready to bring that energy to an entry-level role where I can grow and make an impact.</p>
+        </div>
+      </div>
+  </section>
+
+<section class="content-container" id="skills"> 
+  <h2>My Skills</h2>
+  <div class="line"></div>
+  
+  <div class="grid-container">
+    <div class="card">
+      <h3 style="color:#E34F26; font-weight: 700;">HTML</h3>
+      <img id="html" src="./assets/Skills/HTML.png" alt="HTML icon">
+      <p>To build a <span style="color: #E34F26; font-weight: 700;">semantic</span> and <span style="color: #E34F26; font-weight: 700;">well-structured foundation</span>.</p>
+    </div>
+    <div class="card">
+      <h3 style="color: #1572B6; font-weight: 700;">CSS</h3>
+      <img id="css" src="./assets/Skills/CSS.png" alt="CSS icon">
+      <p>To create <span style="color: #1572B6; font-weight: 700;">visually appealing designs</span> with <span style="color: #1572B6; font-weight: 700;">responsive layouts</span> and <span style="color: #1572B6; font-weight: 700;">smooth user experience</span>.</p>
+    </div>
+    <div class="card">
+      <h3 style="color: #F7DF1E; font-weight: 700;">Javascript</h3>
+      <img id="js" src="./assets/Skills/JS.png" alt="Javascript icon">
+      <p>To add <span style="color: #F7DF1E; font-weight: 700;">interactivity</span> and <span style="color: #F7DF1E; font-weight: 700;">dynamic behavior</span>, enhancing user engagement.</p>
+    </div>
+  </div>
+
+  <div class="learning">
+    <h2>What I'm learning</h2>
+    <div class="line"></div>
+    <div class="card-learning">
+      <h3 style="color: #66CC33; font-weight: 700;">Node.JS</h3>
+      <img id="node" src="./assets/Skills/NODE.png" alt="Node.js icon">
+      <p>To handle <span style="color: #66CC33; font-weight: 700;">server-side logic</span> and <span style="color: #66CC33; font-weight: 700;">backend functionality</span>, enabling <span style="color: #66CC33; font-weight: 700;">scalable</span> and <span style="color: #66CC33; font-weight: 700;">efficient web applications</span>.</p>
+    </div>
+  </div>
+</section>
+
+    <section class="content-container" id="contact"> 
+      <div>
+        <h2>Contact Me</h2>
+        <div class="line"></div>
+        <div class="touch-section">
+          <p>LET 'S</p>
+          <p><span style="margin-left:15%;">GET <span style="margin-left: 15px;">IN</span></span></p>
+          <p>TOUCH</p>
+        </div>
+        <div class="contact-section">
+          <h2 style="line-height: 0; font-weight: 800;">Contact Information</h2>
+          <p style="line-height: 0.; font-weight: 200; margin-bottom: 20%;">If you have any questions, don't hesitate to get in touch with me.</p>
+          <div class="information-section">
+            <div id="phone">
+              <img style="height: 25px;" src="./assets/Contact/Phone.png" alt="phone icon">
+              <p>+55 (11) 996561495</p>
+            </div>
+            <div id="email">
+              <img style="height: 25px;" src="./assets/Contact/Email.png" alt="email icon">
+              <p>DevMatheusTeodoro@gmail.com</p>
+            </div>
+            <a class="CV-contact" href="./assets/Home/Matheus's Curriculum.pdf" target="_blank" download><button>Download CV</button></a>
+            <div class="icons-contact">
+              <a href="https://www.linkedin.com/in/dev-matheus-teodoro/" target="_blank"><img style="height: 50px;" src="./assets/Contact/Linkedin.png"></a>
+              <a href="https://github.com/DevMatheusTeodoro" target="_blank"><img style="height: 50px;" src="./assets/Contact/Github.png"></a>
+              <a href="https://wa.me/+5511996561495" target="_blank"><img style="height: 45px;" src="./assets/Contact/Whatsapp.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="resolution">
+      <h1>Unsupported Screen Resolution</h1>
+      <h2>This website is not compatible with your current screen resolution.</h2>
+      <ul>
+        <li>If you're using a mobile device in landscape mode, please rotate it to portrait.</li> 
+        <li>iPads and tablets are not supported at this time.</li>
+      </ul>
+      <h2>Thank you for your understanding.</h2>
+    </section>
+       <script src="script.js"></script>
+  </body>
+</html>
